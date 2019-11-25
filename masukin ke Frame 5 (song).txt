@@ -1,0 +1,5 @@
+stop();
+
+stage.removeEventListener(KeyboardEvent.KEY_DOWN, pencet);
+stage.removeEventListener(KeyboardEvent.KEY_DOWN, pencet2);
+stage.addEventListener(KeyboardEvent.KEY_DOWN,pencet1);

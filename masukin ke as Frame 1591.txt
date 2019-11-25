@@ -1,0 +1,7 @@
+stop();
+
+MovieClip(root).gotoAndStop("score");
+
+stage.removeEventListener(KeyboardEvent.KEY_DOWN, MovieClip(root).pencet6);
+
+stage.removeEventListener(KeyboardEvent.KEY_UP, MovieClip(root).pencet7);

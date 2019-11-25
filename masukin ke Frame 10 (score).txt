@@ -1,0 +1,5 @@
+stop();
+
+ScoreGame();
+
+stage.addEventListener(KeyboardEvent.KEY_DOWN, pencet2);
